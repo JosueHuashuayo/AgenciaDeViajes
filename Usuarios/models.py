@@ -30,6 +30,10 @@ class Usuarios(models.Model):
         blank = False,
         verbose_name = 'Direccion'
     )
+    email = models.EmailField(
+        max_length = 200,
+        verbose_name = "email"
+    ) 
     created = models.DateTimeField(
         auto_now_add = "True",
         verbose_name = "Fecha de Creacion"
