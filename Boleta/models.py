@@ -16,10 +16,10 @@ class Boleta (models.Model):
         verbose_name = "Pasaje"
     ) 
     created = models.DateTimeField(
-        auto_now_add = "True",
-        verbose_name = "Fecha de Creacion"
+        auto_now_add=True,
+        verbose_name="Fecha de Creacion"
     )
     updated = models.DateTimeField(
-        auto_now = "True",
-        verbose_name = "Fecha de Actualizacion"
+        auto_now=True,
+        verbose_name="Fecha de Actualizacion"
     )
