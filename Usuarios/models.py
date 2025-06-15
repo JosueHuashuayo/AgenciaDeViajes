@@ -35,12 +35,12 @@ class Usuarios(models.Model):
         verbose_name = "email"
     ) 
     created = models.DateTimeField(
-        auto_now_add = "True",
-        verbose_name = "Fecha de Creacion"
+        auto_now_add=True,
+        verbose_name="Fecha de Creacion"
     )
     updated = models.DateTimeField(
-        auto_now = "True",
-        verbose_name = "Fecha de Actualizacion"
+        auto_now=True,
+        verbose_name="Fecha de Actualizacion"
     )
     
     def __str__(self):
